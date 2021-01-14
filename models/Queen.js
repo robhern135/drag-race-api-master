@@ -48,7 +48,7 @@ module.exports = mongoose.model( 'Queen', QueenSchema )
 // {
 //   "id": 1,
 //   "name": "BeBe Zahara Benet",
-//   "winner": true
+//   "winner": true,
 //   "home_town": "Minneapolis",
 //   "home_state": " Minnesota",
 //   "age": 28,

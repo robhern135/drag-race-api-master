@@ -34,5 +34,5 @@ const port = process.env.PORT || 4000;
 
 //SPECIFY PORT
 app.listen(port, function(){
-  console.log("server started successfully!")
+  console.log(`server started successfully! listening on post ${port}`)
 })
