@@ -30,7 +30,7 @@ router.get('/',function(req,res){
 
 //Home Route
 app.get('/api', ( req,res ) => {
-  res.send('We are on home!')
+  res.send('This is the ghome route of the api')
 })
 
 
