@@ -12,6 +12,7 @@ app.use(cors())
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 //Import Routes
@@ -23,6 +24,7 @@ app.use('/api/queens', queensRoute)
 //Index.html
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
+
   //__dirname : It will resolve to your project folder.
 });
 
