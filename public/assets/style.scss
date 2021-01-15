@@ -1,0 +1,28 @@
+$pink: #ec8de9;
+$blue: #82dadb;
+$purple: #69628b;
+$yellow: #f4f77d;
+
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+
+.navbar-light {
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+.card .card-header {
+  font-size: 25px;
+}
+.contained-more {
+  max-width: 900px;
+  margin: auto;
+}

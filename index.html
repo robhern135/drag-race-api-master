@@ -1,11 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="assets/style.css" rel="stylesheet"  type="text/css" />
   <title>Hello World</title>
 </head>
 <body>
-  <h1>Hello World!</h1>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-yellow">
+    <div class="container">
+      <a class="navbar-brand" href="/">Drag Race API</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/docs">Documentation</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<section class="hero ">
+  <div class="container-fluid">
+    <div class="pt-5 pb-5">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <h1 class="text-purple">Drag Race API</h1>
+            <h2 class="mb-4 text-purple">An unofficial RESTful API accessibly serving data on RuPaul's Drag Race.</h2>
+            <a href="#"><button type="button" class="text-purple btn btn-primary">View Docs</button></a>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container-fluid">
+    <div class="pt-3 pb-3">
+      <div class="container contained-more">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 d-flex">
+            <div class="card text-center mt-3 mb-3">
+              <div class="card-header pb-3">
+                What is this API?
+              </div>
+              <div class="card-body">
+                <p class="card-text">This is a full RESTful API linked to a database detailing details about the television show RuPaul's Drag Race and its contestants.</p>
+              </div>
+              <div class="card-footer">
+                <a href="/about" class="btn btn-primary text-yellow">About this API</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 d-flex">
+            <div class="card text-center mt-3 mb-3">
+              <div class="card-header pb-3">
+                Where do I start?
+              </div>
+              <div class="card-body  text-hover-yellow">
+                <p class="card-text">Full documentation on how to use this API is provided. It takes minutes to get started.</p>
+                <p class="card-text">TODO: Disclaimer here</p>
+              </div>
+              <div class="card-footer">
+                <a href="/about" class="btn btn-primary text-yellow">About this API</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<footer>
+  <div class="container-flex bg-yellow text-purple">
+    <div class="pt-2 pb-2">
+      <div class="container contained-more">
+        <div class="row">
+          <small>
+            This API is not endorsed by World of Wonder, Viacom or any of their subsidiaries. It is intended for entertainment and informational purposes only. RuPaul's Drag Race and all names, pictures and audio clips are registered trademarks and/or copyrights of their respective trademark and copyright holders.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
