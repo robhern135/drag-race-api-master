@@ -15,10 +15,10 @@ app.use(express.json());
 //Import Routes
 const queensRoute = require('./routes/queens')
 
-app.use('/queens', queensRoute)
+app.use('/api/queens', queensRoute)
 
 //Home Route
-app.get('/', ( req,res ) => {
+app.get('/api', ( req,res ) => {
   res.send('We are on home!')
 })
 
